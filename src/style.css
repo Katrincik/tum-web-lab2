@@ -8,7 +8,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     padding: 0 20px;
 }
 
@@ -28,11 +32,11 @@ body {
 .header-buttons {
     display: table-row-group;
     position: absolute;
-    right: 30px;
+    right: 60px;
 }
 
 .header-buttons button {
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .icon-button {
@@ -56,6 +60,19 @@ body {
 
 .icon-button:hover {
     transform: scale(1.1);
+}
+
+.main-nav {
+    position: fixed;
+    top: 38px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background: #e0dede;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-group {
@@ -369,11 +386,89 @@ h3 {
     margin-top: 10px;
 }
 
-.bestseller-name-section {
+.bestseller-name-section  {
     text-align: left;
     font-size: 32px;
     color: rgba(0, 0, 0, 0.8);
 }
+
+.skincare-name-section {
+    text-align: left;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.bodyHair-name-section {
+    text-align: left;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.skincare {
+    width: 90%;
+    margin: 0px 100px 0px 100px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.bodyHair {
+    width: 90%;
+    margin: 0px 100px 0px 100px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.step-first {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.steps {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.step-description {
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 48px;
+}
+
+.skincare-products {
+    display: flex;
+    gap: 50px;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.skincare-product-card {
+    text-align: left;
+    max-width: 260px;
+}
+
+.skincare-product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.skincare-product-name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.skincare-product-description {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+
 
 
 
