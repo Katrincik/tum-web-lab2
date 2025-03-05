@@ -434,7 +434,7 @@ hr {
     margin: 0;
 }
 
-.bestsellers {
+.bestsellers, .skincare, .bodyHair {
     width: 90%;
     margin: 0px 100px 0px 100px;
     text-align: center;
@@ -477,6 +477,7 @@ hr {
     align-items: center;
     margin-top: 10px;
 }
+
 .price {
     font-weight: bold;
     font-size: 16px;
@@ -511,47 +512,13 @@ h3 {
     margin-top: 10px;
 }
 
-.bestseller-name-section  {
+.bestseller-name-section, .skincare-name-section, .bodyHair-name-section  {
     text-align: left;
     font-size: 32px;
     color: rgba(0, 0, 0, 0.8);
 }
 
-.skincare-name-section {
-    text-align: left;
-    font-size: 32px;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.bodyHair-name-section {
-    text-align: left;
-    font-size: 32px;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.skincare {
-    width: 90%;
-    margin: 0px 100px 0px 100px;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.bodyHair {
-    width: 90%;
-    margin: 0px 100px 0px 100px;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.step-first {
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 40px;
-    text-align: left;
-    margin-bottom: 24px;
-}
-
-.steps {
+.step-first, .steps {
     font-size: 20px;
     font-weight: bold;
     margin-top: 40px;
